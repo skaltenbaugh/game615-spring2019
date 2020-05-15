@@ -8,7 +8,7 @@ public class StartScene : MonoBehaviour
  
     public void StartGame(int GameStart)
     {
-        SceneManager.LoadScene(GameStart)
+        SceneManager.LoadScene(GameStart);
     }
         
     }
