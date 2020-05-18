@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerController : MonoBehaviour
+public class RacerControl : MonoBehaviour
 {
 
     public float speed;
@@ -22,4 +22,5 @@ public class PlayerController : MonoBehaviour
 
         rb.AddForce(movement * speed);
     }
-}
+
+    }
